@@ -1,0 +1,28 @@
+.calculator , .result {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3f3f3f;
+  margin: 0px 300px;
+  padding: 20px;
+}
+
+.calculator label , .result label {
+  font-size: 50px;
+  font-weight: 600;
+  color: #fff; 
+}
+
+.result button, .calculator button{
+  font-size: 40px;
+  font-weight: 600;
+  color:white;
+  background-color: coral;
+}
+
+.calculator input , .result input{
+  font-size: 50px;
+  font-weight: 600;
+}
+
+

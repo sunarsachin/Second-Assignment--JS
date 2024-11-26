@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>calculator</title>
+   <link rel="stylesheet" href="JS-Assigment.css">
+
+
+</head>
+<body>
+
+ 
+    <!-- calculator start -->
+
+     <h1 style="text-align: center;">Simple calculator</h1>
+     <div class="calculator">
+     <form >
+      
+      
+      <label for="num1">Number 1:</label>
+      <input type="number"  id="num1"><br><br>
+      <label for="num2">Number 2:</label>
+      <input type="number"  id="num2"><br><br>
+
+      <button type="button"  onclick="calculator('+')">ADD</button>
+      <button type="button" onclick="calculator('-')">SUBTRACT</button>
+      <button type="button" onclick="calculator('*')">MULTIPLY</button>
+      <button type="button" onclick="calculator('/')">DIVIDE</button><br><br>
+
+      <label for="result">Result:</label>
+      <input type="number"  id="result" readonly>
+      
+      </form>
+      </div>
+
+    <!-- calculator end -->
+
+    
+
+    <!-- Result checker start -->
+
+    <h1 style="text-align: center;">Check Result</h1>
+    <div class="result">
+    <form>
+      <label for="mark">Enter Marks:</label>
+      <input type="number" id="mark"><br><br>
+      <button type="button" onclick="checkResult()">Check Grade</button>
+      <br><br>
+      <label for="">Result:</label>
+      <input type="text" id="grade" readonly>
+    </form>
+    </div>
+
+   <!-- Result checker end -->
+  
+
+  <script src="JS-Assigment.js"></script>
+
+</body>
+</html>
